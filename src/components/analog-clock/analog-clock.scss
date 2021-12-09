@@ -1,0 +1,74 @@
+.analog-clock {
+  background: deepskyblue;
+  border-radius: 2rem;
+  justify-content: center;
+  width: 100%;
+}
+
+.clockbox {
+  display: flex;
+  justify-content: center;
+}
+
+#clock {
+  height: 22rem;
+  width: 22rem;
+}
+
+/* Clock styles */
+
+.circle {
+  fill: none;
+  stroke: #000;
+  stroke-miterlimit: 10;
+  stroke-width: 9;
+}
+
+.mid-circle {
+  fill: #000;
+}
+
+.hour-marks {
+  fill: none;
+  stroke: #000;
+  stroke-miterlimit: 10;
+  stroke-width: 9;
+}
+
+.hour-arm {
+  fill: none;
+  stroke: #000;
+  stroke-miterlimit: 10;
+  stroke-width: 17;
+}
+
+.minute-arm {
+  fill: none;
+  stroke: #000;
+  stroke-miterlimit: 10;
+  stroke-width: 11;
+}
+
+.second-arm {
+  fill: none;
+  stroke: #000;
+  stroke-miterlimit: 10;
+  stroke-width: 4;
+}
+
+/* Transparent box ensuring arms center properly. */
+
+.sizing-box {
+  fill: none;
+}
+
+/* Make all arms rotate around the same center point. */
+
+/* Optional: Use transition for animation. */
+
+#hour,
+#minute,
+#second {
+  transform-origin: 300px 300px;
+  transition: transform 0.5s ease-in-out;
+}

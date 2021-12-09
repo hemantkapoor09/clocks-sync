@@ -1,0 +1,35 @@
+$divider-space: 0.4rem;
+
+.digital-clock {
+  align-items: center;
+  display: flex;
+  height: 22rem;
+  justify-content: center;
+  width: 100%;
+  &-wrapper {
+    background: aliceblue;
+    border: double #000 1rem;
+    border-radius: 5px;
+    display: flex;
+    font-size: 3rem;
+    font-weight: bold;
+    height: fit-content;
+    padding: 0.8rem;
+    width: fit-content;
+  }
+  &--hours {
+    margin-right: $divider-space;
+  }
+  &--minutes {
+    margin-left: $divider-space;
+    margin-right: $divider-space;
+  }
+  &--seconds {
+    margin-left: $divider-space;
+  }
+  &--divider {
+    &::after {
+      content: ":";
+    }
+  }
+}
