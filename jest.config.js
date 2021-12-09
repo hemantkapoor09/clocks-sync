@@ -9,10 +9,10 @@ module.exports = {
   coverageReporters: ["html", "text", "text-summary"],
   coverageThreshold: {
     global: {
-      branches: 77,
-      functions: 77,
-      lines: 77,
-      statements: 77
+      branches: 75,
+      functions: 75,
+      lines: 75,
+      statements: 75
     }
   },
   reporters: ["default", "jest-junit"],

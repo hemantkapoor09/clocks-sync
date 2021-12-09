@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuites name="jest tests" tests="5" failures="0" errors="0" time="12.381">
-  <testsuite name="digital-clock.vue" errors="0" failures="0" skipped="0" timestamp="2021-12-09T01:55:25" time="6.999" tests="1">
-    <testcase classname="digital-clock.vue should render" name="digital-clock.vue should render" time="0.025">
+<testsuites name="jest tests" tests="5" failures="0" errors="0" time="11.332">
+  <testsuite name="digital-clock.vue" errors="0" failures="0" skipped="0" timestamp="2021-12-09T18:14:27" time="6.346" tests="1">
+    <testcase classname="digital-clock.vue should render" name="digital-clock.vue should render" time="0.014">
     </testcase>
   </testsuite>
-  <testsuite name="analog-clock.vue" errors="0" failures="0" skipped="0" timestamp="2021-12-09T01:55:25" time="6.94" tests="1">
-    <testcase classname="analog-clock.vue should render" name="analog-clock.vue should render" time="0.017">
+  <testsuite name="analog-clock.vue" errors="0" failures="0" skipped="0" timestamp="2021-12-09T18:14:27" time="6.492" tests="1">
+    <testcase classname="analog-clock.vue should render" name="analog-clock.vue should render" time="0.014">
     </testcase>
   </testsuite>
-  <testsuite name="digital-clock.vue" errors="0" failures="0" skipped="0" timestamp="2021-12-09T01:55:25" time="8.128" tests="3">
-    <testcase classname="digital-clock.vue should render" name="digital-clock.vue should render" time="0.013">
+  <testsuite name="digital-clock.vue" errors="0" failures="0" skipped="0" timestamp="2021-12-09T18:14:27" time="7.778" tests="3">
+    <testcase classname="digital-clock.vue should render" name="digital-clock.vue should render" time="0.017">
     </testcase>
-    <testcase classname="digital-clock.vue by default" name="digital-clock.vue by default" time="0.002">
+    <testcase classname="digital-clock.vue by default" name="digital-clock.vue by default" time="0.003">
     </testcase>
-    <testcase classname="digital-clock.vue on `timeValue` update and on button click" name="digital-clock.vue on `timeValue` update and on button click" time="0.021">
+    <testcase classname="digital-clock.vue on `timeValue` update and on button click" name="digital-clock.vue on `timeValue` update and on button click" time="0.025">
     </testcase>
   </testsuite>
 </testsuites>
